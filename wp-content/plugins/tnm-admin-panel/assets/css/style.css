@@ -1,0 +1,383 @@
+/** Admin panel **/
+.status-message-wrap li {
+    font-size: 15px;
+    font-weight: 600;
+    color: #888;
+    margin-top: 10px;
+}
+.bk-activate-admin-panel-wrapper {
+    position: relative;
+    margin-bottom: 30px;
+}
+.bk-bg-intro {
+    background-image: url('../images/Gloria-intro.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 70% 70%;
+    width:100%;
+    height: 100%;
+}
+/** Install Admin Panel Button **/
+.bk-activate-admin-panel-button {
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top: 0;
+}
+.bk-activate-admin-panel-button a{
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #D13030;
+    text-transform: uppercase;
+    font-size: 18px;    
+    text-decoration: none;
+    position: absolute;
+    left: 40px;
+    border-radius: 3px;
+}
+.bkpostbox .bk-admin-button a {
+    text-transform: uppercase;
+    font-size: 14px;    
+}
+.bk-activate-admin-panel-button a.bk-admin-activate {
+    top: 120px;
+}
+.bk-activate-admin-panel-button a.bk-admin-activate-ignore {
+    top: 190px;
+}
+.bk-activate-admin-panel-button a:hover {
+    background-color: #0073AA;
+    color: #fff;
+}
+/** Tabs*/
+.bkpostbox {
+    min-width: 255px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+.bkpostbox h1 {
+    margin: 15px 20px 0 0;
+    padding: 0;
+    color: #32373c;
+    line-height: 1.2em;
+    font-size: 2.8em;
+    font-weight: 400;
+    font-size: 42px;
+}
+.bkpostbox .bk-admin-notice {
+    font-size: 20px;
+    color: #888;
+}
+.nav-tab-wrapper {
+}
+.nav-tab-wrapper .nav-tab {
+    font-size: 16px;
+    padding: 6px 13px;
+}
+.nav-tab-wrapper .nav-tab:first-child{
+    margin-left: 0;
+}
+.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover {
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+}
+.redux-container-image_select ul.redux-image-select li {
+    margin-right: 10px !important;
+    margin-top: 15px !important;
+}
+.bk-progress-wrapper {
+    margin-bottom: 50px;
+    padding: 0 25px;
+}
+/** Welcome Template **/
+.bk-welcome-main {
+    padding: 0 20px;
+}
+.bk-welcome-content {
+    margin-top: 40px;
+    font-size: 15px;
+    text-align: center;
+    max-width: 900px;
+    margin: 40px auto;
+}
+.bk-welcome-content p{
+    font-size: 1.3em;
+    line-height: 1.6;
+    padding: 0 15px;
+}
+.bk-welcome-content .video-tutorial {
+    text-align: center;
+    margin-top: 30px;
+}
+.bk-screenshot img {
+    width: 100%;
+}
+.bk-welcome-footer > div {
+    float: left;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+.bk-welcome-footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+.bk-welcome-footer > div h2 {
+    font-weight: 700 !important;
+}
+.bk-button a{
+    margin: 15px 0;
+    font-size: 13px;
+    padding: 6px 10px;
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.bk-button a:hover {
+    background-color: #0073AA;
+    color: #fff;
+}
+/** Import Demo **/
+.postbox .hndle, .stuffbox .hndle {
+    border-bottom: 1px solid #dedede;
+}
+.bk-demo-item {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+.bk-demo-item-inner {
+    border: 1px solid #dedede;
+    text-align: center;
+    background: #f8f8f8;
+}
+.bk-demo-item-inner img {
+    display: block;
+}
+.bk-demo-header {
+    padding: 15px;
+    background-color: #ffffff;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.bk-demo-item:nth-child(4n+1) {
+    clear: both;
+}
+.bk-demo-item:nth-child(n+5) {
+    margin-top: 50px;
+}
+.bk-demo-item a, .bk-demo-item .install-status, .plugin-installing-pending, .demo-install-message{
+    margin: 15px 10px;
+    font-size: 13px;
+    padding: 4px 10px;
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;   
+    border-radius: 2px; 
+    margin-right: 10px;
+}
+.bk-demo-item a:visited, .bk-demo-item a:focus {
+    color: #fff;
+}
+.bk-demo-item-inner.demo-waiting a.bk_importer_start {
+    display: inline-block;
+}
+.bk-demo-item-inner.demo-waiting .attachment-setting-switch{
+    display: block;
+}
+.bk-demo-item-inner.demo-waiting .demo-install-message, .bk-demo-item-inner.demo-done .demo-installing {
+    display: none;
+}
+.bk-demo-item-inner.demo-importing a.bk_importer_start, .bk-demo-item-inner.demo-importing .demo-install-message, .bk-demo-item-inner.demo-importing .attachment-setting-switch {
+    display: none;
+}
+.bk-demo-item-inner.demo-importing .demo-installing {
+    display: block;
+}
+.bk-demo-item-inner.demo-done .demo-installing, .bk-demo-item-inner.demo-done a.bk_importer_start{
+    display: none;
+}
+.bk-demo-item-inner.demo-done .demo-install-message {
+    display: inline-block;
+}
+.bk-demo-item a {
+    cursor: pointer;
+}
+.plugin-actions, .bk-import-action {
+    position: relative;
+    min-height: 56px;
+}
+.plugin-installing, .demo-installing { 
+    background: url('../images/ajax-loader.gif') no-repeat center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1000000000;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+.bk-demo-item a:hover {
+    background: #0073AA;
+    
+}
+.bk-import-process-bar {
+    height: 10px;
+    width: 0;
+    background-color: #4db2ec;
+    -webkit-transition: width 400ms;
+    -moz-transition: width 400ms;
+    -o-transition: width 400ms;
+    transition: width 400ms;
+    background-size: 30px 30px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    animation: animate-stripes 4s linear infinite;
+}
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 60px 0;
+  }
+}
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 60px 0;
+  }
+}
+/* Plugins */
+.bk-demo-wrapper .bk-install-plugin {
+  display: none;
+}
+.bk-demo-wrapper .bk-deactivate-plugin {
+  display: none;
+}
+.bk-demo-wrapper .bk-activate-plugin {
+  display: none;
+}
+.bk-demo-wrapper .plugin-active .bk-deactivate-plugin {
+  display: inline-block;
+}
+.bk-demo-wrapper .plugin-inactive .bk-activate-plugin {
+  display: inline-block;
+}
+.bk-demo-wrapper .plugin-pending .plugin-actions a {
+    display: none;
+}
+.bk-demo-wrapper .not-installed .bk-install-plugin {
+  display: inline-block;
+}
+.plugin-installing-pending {
+    display: none;
+}
+/** Status **/
+.bk-help {
+    width: 12px;
+    height: 13px;
+    display: inline-block;
+    text-align: center;
+    line-height: 13px;
+    cursor: pointer;
+    background-color: silver;
+    color: #fff;
+    font-size: 11px;
+}
+.bk-help:hover {
+    color: #fff;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/* Switch Button */
+.attachment-setting-switch {
+    min-height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-top: 1px solid #dedede;
+    text-align: left;
+}
+.attachment-setting-switch .switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin-right: 6px;
+  float: left;
+}
+
+.attachment-setting-switch .switch input {display:none;}
+
+.attachment-setting-switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.attachment-setting-switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.attachment-setting-switch input:checked + .slider {
+  background-color: #2196F3;
+}
+
+.attachment-setting-switch input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.attachment-setting-switch input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.attachment-setting-switch .slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

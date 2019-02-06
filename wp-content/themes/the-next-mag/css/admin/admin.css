@@ -1,0 +1,144 @@
+.datepicker-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+}
+.post-php .rwmb-button_group-wrapper .rwmb-label {
+    line-height: 56px;
+}
+.rwmb-meta-box .rwmb-field {
+    display: block;
+}
+.rwmb-input .description {
+    clear:both;
+}
+.redux-container .form-table>tbody>tr.bk-single-post-layout--global-option>th {
+    width: 18%;
+}
+.redux-container .bk-single-post-layout--global-option .redux-container-image_select .redux-image-select img {
+    border-width: 2px;
+    margin: 0 10px 10px 10px;
+}
+.redux-container .redux-main > h2 {
+    padding-left: 10px;
+    text-transform: uppercase;
+    border-left: 8px solid #000;
+}
+/*** Tiny MCE***/
+.mce-bk-shortcode-popup-frame {
+    height: 500px !important;
+    overflow-y: scroll;
+    top: 60px !important;
+}
+.mce-bk-shortcode-popup-frame .mce-widget {
+    min-width: 250px !important;
+}
+.mce-bk-shortcode-popup-frame .mce-widget.mce-label {
+    max-width: 200px !important;
+    min-width: 0 !important;
+}
+.mce-bk-shortcode-popup-frame .mce-colorpicker {
+    max-height: 110px !important;
+}
+.mce-my_upload_button {
+    max-width: 250px !important;
+}
+/********* Post Review Admin ************/
+.field-bkmegamenu {
+    clear: both;
+    padding-top: 10px;
+}
+.rwmb-divider-wrapper {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+/*
+ * Menu
+ */
+.menu-item-settings .bk-description-thin, .menu-item-settings .bk-description-wide {
+    float: none !important;    
+}
+
+/* Theme Options **/
+.redux-container .redux-group-tab #single-sections-sorter h3 {
+    text-transform: capitalize;
+}
+.redux-container .admin-color-fresh .redux-sidebar .redux-group-menu li.active a {
+    background: #23282D;
+    color: #fff;
+}
+.redux-container .redux-section-field.redux-section-indent-start {
+    padding: 15px;
+    background: #23282D;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.redux-container .redux-section-field.redux-section-indent-start .redux-section-desc {
+    margin-bottom: 0;
+    color: #aaa;
+}
+.redux-container .redux-section-field > h3 {
+    border-bottom: 0 !important;
+    color: #fff;
+    margin: 0 !important;
+}
+.redux-container .redux-main .form-table tr {
+    border: 0;
+}
+.rwmb-meta-box .rwmb-image-select {
+    width: 17%;
+    height: auto;
+}
+.redux-container  #single-sections-sorter_enabled h3{
+    display: none;
+}
+/* Metabox Description */
+#bk_post_ops h2:after{
+    content: '[From Theme Option]: Setting from Theme Options -> Single Page; Related Section and Same Category Section from Theme Options -> Advance Page';
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    color: #888;
+}
+#bk_single_post_sidebar h2:after, #bk_section_show_hide h2:after {
+    content: '[From Theme Option]: Setting from Theme Options -> Single Page';
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    color: #888;
+}
+#bk_related_post_ops h2:after, #bk_same_cat_post_ops h2:after {
+    content: '[From Theme Option]: Setting from Theme Options -> Advance Single Page - With Sidebar';
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    color: #888;
+}
+#bk_related_post_ops_wide h2:after, #bk_same_cat_post_ops_wide h2:after {
+    content: '[From Theme Option]: Setting from Theme Options -> Advance Single Page - Full Width';
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    color: #888;
+}
+
+
+
+
+
